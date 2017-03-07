@@ -66,7 +66,6 @@
   /* #define STM32F10X_LD */     /*!< STM32F10X_LD: STM32 Low density devices */
   /* #define STM32F10X_LD_VL */  /*!< STM32F10X_LD_VL: STM32 Low density Value Line devices */  
   /* #define STM32F10X_MD */     /*!< STM32F10X_MD: STM32 Medium density devices */
-  /* #define STM32F10X_MD */     /*!< STM32F10X_MD: STM32 Medium density devices */   
   /* #define STM32F10X_MD_VL */  /*!< STM32F10X_MD_VL: STM32 Medium density Value Line devices */  
   /* #define STM32F10X_HD */     /*!< STM32F10X_HD: STM32 High density devices */
   /* #define STM32F10X_HD_VL */  /*!< STM32F10X_HD_VL: STM32 High density value line devices */  
@@ -92,6 +91,7 @@
    the Flash memory density ranges between 512 and 1024 Kbytes.
  - Connectivity line devices are STM32F105xx and STM32F107xx microcontrollers.
   */   
+   
 #if !defined (STM32F10X_LD) && !defined (STM32F10X_LD_VL) && !defined (STM32F10X_MD) && !defined (STM32F10X_MD_VL) && !defined (STM32F10X_HD) && !defined (STM32F10X_HD_VL) && !defined (STM32F10X_XL) && !defined (STM32F10X_CL)
  #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
 #endif

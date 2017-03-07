@@ -5,17 +5,16 @@ Int8U i = 0;
 
 int main()
 {
-//  InitSysTick();
-//  InitPinout();
+  InitSysTick();
+  InitPinout();
   
    
   while(1)
-  {
-    i++;
-//    if (i)
-//      GPIOB->BSRR = GPIO_BSRR_BS1;  // Устанавливаем на выходе PB1 значение 1
-//    else
-//      GPIOB->BRR = GPIO_BRR_BR1;    // Устанавливаем на выходе PB1 значение 0
+  {  
+    if (Flag1)
+      GPIOB->BSRR = GPIO_BSRR_BS1;  // Устанавливаем на выходе PB1 значение 1
+    else
+      GPIOB->BRR = GPIO_BRR_BR1;    // Устанавливаем на выходе PB1 значение 0
   }  
   
   return 0;

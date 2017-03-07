@@ -32,19 +32,19 @@
   //-----------------------------------------------------------
   //    User aplication including headers
   //-----------------------------------------------------------
-#include "DataTypes.h"        
+#include "interrupts.h"
+#include "DataTypes.h"
 #include "main.h"
-#include "interrupts.h"   
-#include "UserConfig.h"  
+#include "UserConfig.h"
 
 
   //-----------------------------------------------------------
   //  User module including headers
   //-----------------------------------------------------------
    
-#include "STM32F10xXX_USART.h"
-#include "STM32F10xXX_SPI.h"
-#include "lcd.h"
+//#include "STM32F10xXX_USART.h"
+//#include "STM32F10xXX_SPI.h"
+//#include "lcd.h"
    
 //#include "ApplicationConfig.h"  
 //#include "OperatingFunctions.h"
