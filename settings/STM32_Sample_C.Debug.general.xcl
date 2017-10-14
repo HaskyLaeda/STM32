@@ -1,12 +1,14 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armstlink2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\arm\bin\armstlink2.dll" 
 
-"C:\Repo\STM32\STM32_Sample_C\Debug\Exe\STM32_SamplePrj_C.out" 
+"D:\Repo\STM32\STM32_Sample_C\Debug\Exe\STM32_SamplePrj_C.out" 
 
---plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\arm\bin\armbat.dll" 
 
---device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\arm\config\flashloader\ST\FlashSTM32F10xxB.board" 
 
 
 

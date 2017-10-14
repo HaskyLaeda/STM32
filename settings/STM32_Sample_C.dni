@@ -1,9 +1,12 @@
 [DebugChecksum]
-Checksum=-759113440
+Checksum=1605986189
 [StLinkDriver]
-stlinkserialNo=2798FD0D
+stlinkserialNo=4
 stlinkfoundProbes=
 CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+stlinkResetStyle=0
+stlinkResetStrategy=1
 [CodeCoverage]
 Enabled=_ 0
 [Stack]
@@ -22,11 +25,11 @@ StopOnThrow=_ 0
 [CallStack]
 ShowArgs=0
 [Disassembly]
-MixedMode=1
+MixedMode=0
 [SWOTraceHWSettings]
 OverrideDefaultClocks=0
 CpuClock=72000000
-ClockAutoDetect=0
+ClockAutoDetect=1
 ClockWanted=2000000
 JtagSpeed=2000000
 Prescaler=36
@@ -100,8 +103,11 @@ ShowTiming=1
 [Disassemble mode]
 mode=0
 [Breakpoints2]
-Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.14.5" 0 0 1 "" 0 "" 0
-Count=1
-[Aliases]
 Count=0
+[Aliases]
+A0=_ "C:\Repo\STM32\STM32_Sample_C\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s" ""
+A1=_ "C:\Repo\STM32\STM32_Sample_C\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c" ""
+A2=_ "C:\Repo\STM32\STM32_Sample_C\Source\interrupts.cpp" ""
+A3=_ "C:\Repo\STM32\STM32_Sample_C\main.c" ""
+Count=4
 SuppressDialog=0

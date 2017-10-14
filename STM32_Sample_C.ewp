@@ -380,7 +380,7 @@
         </option>
         <option>
           <name>IccLang</name>
-          <state>2</state>
+          <state>0</state>
         </option>
         <option>
           <name>IccCDialect</name>
@@ -2011,25 +2011,25 @@
       <name>$PROJ_DIR$\Source\includes.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\interrupts.cpp</name>
+      <name>$PROJ_DIR$\Source\interrupts.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\interrupts.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\lcd.cpp</name>
+      <name>$PROJ_DIR$\Source\lcd.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\lcd.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\STM32F10xXX_SPI.cpp</name>
+      <name>$PROJ_DIR$\Source\STM32F10xXX_SPI.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\STM32F10xXX_SPI.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\STM32F10xXX_USART.cpp</name>
+      <name>$PROJ_DIR$\Source\STM32F10xXX_USART.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\STM32F10xXX_USART.h</name>
@@ -2038,7 +2038,7 @@
       <name>$PROJ_DIR$\Source\types.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\UserConfig.cpp</name>
+      <name>$PROJ_DIR$\Source\UserConfig.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\UserConfig.h</name>

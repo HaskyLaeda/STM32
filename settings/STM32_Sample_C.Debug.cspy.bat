@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.general.xcl" --backend -f "C:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\common\bin\cspybat" -f "D:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.general.xcl" --backend -f "D:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.8\common\bin\cspybat" -f "D:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Repo\STM32\STM32_Sample_C\settings\STM32_Sample_C.Debug.driver.xcl" 
 
 @echo off 
 :end
