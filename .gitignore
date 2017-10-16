@@ -2,3 +2,6 @@
 /Debug/Obj/
 /Debug/Exe/
 /settings/
+Backup*.ewd
+Backup*.ewp
+Backup*.ewt

@@ -6,54 +6,25 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Source\GlobalError.h</file>
-      <file>$PROJ_DIR$\Source\includes.h</file>
-      <file>$PROJ_DIR$\Source\font.h</file>
-      <file>$PROJ_DIR$\Source\GlobalError.c</file>
-      <file>$PROJ_DIR$\Source\STM32F10xXX_SPI.c</file>
-      <file>$PROJ_DIR$\Source\STM32F10xXX_USART.c</file>
-      <file>$PROJ_DIR$\Source\UserConfig.c</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
       <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_USART.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\STM32_SamplePrj_C.out</file>
       <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_USART.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_USART.pbi</file>
-      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
       <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
       <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
       <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
       <file>$PROJ_DIR$\Debug\Obj\GlobalError.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\interrupts.__cstat.et</file>
-      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
       <file>$PROJ_DIR$\Debug\Obj\UserConfig.o</file>
       <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</file>
-      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h</file>
-      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s</file>
-      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h</file>
-      <file>$PROJ_DIR$\Config\Core\arm_math.h</file>
-      <file>$PROJ_DIR$\Config\Core\arm_common_tables.h</file>
-      <file>$PROJ_DIR$\Config\Core\arm_const_structs.h</file>
-      <file>$PROJ_DIR$\Config\Core\core_cm3.h</file>
-      <file>$PROJ_DIR$\Config\Core\core_cmFunc.h</file>
-      <file>$PROJ_DIR$\Config\Core\core_cmInstr.h</file>
-      <file>$PROJ_DIR$\Source\DataTypes.h</file>
       <file>$PROJ_DIR$\Source\interrupts.cpp</file>
-      <file>$PROJ_DIR$\Source\interrupts.h</file>
       <file>$PROJ_DIR$\Source\lcd.cpp</file>
-      <file>$PROJ_DIR$\Source\lcd.h</file>
       <file>$PROJ_DIR$\Source\STM32F10xXX_SPI.cpp</file>
-      <file>$PROJ_DIR$\Source\STM32F10xXX_SPI.h</file>
       <file>$PROJ_DIR$\Source\STM32F10xXX_USART.cpp</file>
-      <file>$PROJ_DIR$\Source\STM32F10xXX_USART.h</file>
-      <file>$PROJ_DIR$\Source\types.h</file>
       <file>$PROJ_DIR$\Source\UserConfig.cpp</file>
-      <file>$PROJ_DIR$\Source\UserConfig.h</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\main.h</file>
       <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.__cstat.et</file>
       <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xB.icf</file>
       <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_SPI.o</file>
@@ -64,195 +35,96 @@
       <file>$PROJ_DIR$\Debug\Obj\GlobalError.o</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_md.o</file>
       <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\STM32_Sample_C.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_md.o</file>
       <file>$PROJ_DIR$\Debug\Obj\GlobalError.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\interrupts.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_USART.__cstat.et</file>
-      <file>$PROJ_DIR$\Debug\Obj\UserConfig.__cstat.et</file>
       <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
-      <file>$PROJ_DIR$\Debug\List\STM32_SamplePrj_C.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\UserConfig.__cstat.et</file>
       <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s</file>
+      <file>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h</file>
+      <file>$PROJ_DIR$\Config\Core\core_cm3.h</file>
+      <file>$PROJ_DIR$\Config\Core\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Config\Core\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Source\DataTypes.h</file>
+      <file>$PROJ_DIR$\Source\font.h</file>
+      <file>$PROJ_DIR$\Source\GlobalError.c</file>
+      <file>$PROJ_DIR$\Source\GlobalError.h</file>
+      <file>$PROJ_DIR$\Source\includes.h</file>
+      <file>$PROJ_DIR$\Source\interrupts.c</file>
+      <file>$PROJ_DIR$\Source\interrupts.h</file>
+      <file>$PROJ_DIR$\Source\lcd.c</file>
+      <file>$PROJ_DIR$\Source\lcd.h</file>
+      <file>$PROJ_DIR$\Source\STM32F10xXX_SPI.c</file>
+      <file>$PROJ_DIR$\Source\STM32F10xXX_SPI.h</file>
+      <file>$PROJ_DIR$\Source\STM32F10xXX_USART.c</file>
+      <file>$PROJ_DIR$\Source\STM32F10xXX_USART.h</file>
+      <file>$PROJ_DIR$\Source\types.h</file>
+      <file>$PROJ_DIR$\Source\UserConfig.c</file>
+      <file>$PROJ_DIR$\Source\UserConfig.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\List\STM32_SamplePrj_C.map</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
       <file>$PROJ_DIR$\Debug\Obj\UserConfig.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_SPI.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_SPI.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM32F10xXX_SPI.pbi</file>
       <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
       <file>$PROJ_DIR$\Debug\Obj\lcd.__cstat.et</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\Source\interrupts.c</file>
-      <file>$PROJ_DIR$\Source\lcd.c</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 9 66</file>
+          <file> 2 65</file>
         </tool>
       </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Source\GlobalError.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 61</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 55</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 18</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 0 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 47 45</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Source\STM32F10xXX_SPI.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 71</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 50</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 72</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 47 45 40</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Source\STM32F10xXX_USART.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 12</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 10</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 63</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 42 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 47 45</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Source\UserConfig.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 69</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 21</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 64</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 45 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 47</file>
-        </tool>
-      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\STM32_SamplePrj_C.out</name>
       <outputs>
         <tool>
           <name>ILINK</name>
-          <file> 66</file>
+          <file> 65</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 49 55 51 65 59 58 50 10 53 21 13 16 20 17</file>
+          <file> 20 26 22 34 29 30 21 3 24 11 38 6 8 7</file>
         </tool>
       </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 8</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 53</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 48</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 58</file>
-        </tool>
-      </outputs>
     </file>
     <file>
       <name>$PROJ_DIR$\Source\interrupts.cpp</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 62</file>
+          <file> 32</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 51</file>
+          <file> 22</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 19</file>
+          <file> 10</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 36 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 34 47 45</file>
+          <file> 54 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 48 39 63</file>
         </tool>
       </inputs>
     </file>
@@ -261,21 +133,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 70</file>
+          <file> 68</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 65</file>
+          <file> 34</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 74</file>
+          <file> 72</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 43 2 38 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 47 45</file>
+          <file> 61 49 56 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 39 63</file>
         </tool>
       </inputs>
     </file>
@@ -284,15 +156,15 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 71</file>
+          <file> 70</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 50</file>
+          <file> 21</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 72</file>
+          <file> 69</file>
         </tool>
       </outputs>
     </file>
@@ -301,11 +173,11 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 12</file>
+          <file> 1</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 63</file>
+          <file> 33</file>
         </tool>
       </outputs>
     </file>
@@ -314,60 +186,37 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 69</file>
+          <file> 67</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 21</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 64</file>
+          <file> 35</file>
         </tool>
       </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 54</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 59</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 15</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 47 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 45</file>
-        </tool>
-      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\c.out</name>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 49 55 51 65 59 58 50 10 53 21 13 16 73 20 17</file>
+          <file> 20 26 22 34 29 30 21 3 24 11 38 6 71 8 7</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Source\interrupts.c</name>
+      <name>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 62</file>
+          <file> 0</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 51</file>
+          <file> 24</file>
         </tool>
         <tool>
           <name>__cstat</name>
@@ -377,7 +226,62 @@
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 36 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 34 47 45</file>
+          <file> 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Config\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar\startup_stm32f10x_md.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\GlobalError.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 39 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\interrupts.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 48 39 63</file>
         </tool>
       </inputs>
     </file>
@@ -386,21 +290,113 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 70</file>
+          <file> 68</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 65</file>
+          <file> 34</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 74</file>
+          <file> 72</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 43 2 38 1 25 31 22 7 57 75 68 56 67 23 33 14 11 32 27 36 34 47 45</file>
+          <file> 61 49 56 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 39 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\STM32F10xXX_SPI.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 39 63 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\STM32F10xXX_USART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 39 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\UserConfig.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39 52 42 45 12 40 28 73 66 27 36 13 47 4 37 46 44 54 48 63</file>
         </tool>
       </inputs>
     </file>
